@@ -4,11 +4,10 @@
   --Green-teal: hsl(166, 100%, 37%);
   --Cobalt-blue: hsl(234, 85%, 45%);
 
-  /* (background) */
-  --Light-slate-blue: hsl(252, 100%, 67%)
-  --gradient-background: linear-gradient(to bottom, var(--Light-slate-blue), hsl(241, 81%, 54%));
+  /* background */
+  --gradient-background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
-  /* (circle) */
+  /* circle */
     --gradient-circle: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0););
 
   /* Neutral */
