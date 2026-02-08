@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import Attribute from "./components/Attribute.jsx";
+import Score from "./components/score.jsx";
 // import data from "./json/data.json";
 // import iconMemory from "/images/icon-memory.svg";
 // import icoRreaction from "/images/icon-reaction.svg";
@@ -12,13 +13,7 @@ function App() {
 
   return <>
   <div className="container">
-    <div className="score-container">
-      <p></p>
-      <div className="circle">
-        <h1 className="score">76</h1>
-        <p className="total">of 100</p>
-      </div>
-    </div>
+    <Score/>
   </div>
   <Attribute/>
   </>;
