@@ -24,32 +24,19 @@
   --Light-lavender: hsl(241, 100%, 89%);
   --Dark-gray-blue: hsl(224, 30%, 27%);
 }
-
 @font-face {
-  font-family: "HankenGrotesk";
-  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
-    format("truetype");
+  font-family: HankenGrotesk;
+  src: url(/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
   font-weight: 500 800;
 }
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
-  font-family: "HankenGrotesk", sans-serif;
-}
-body {
-  background: var(--Light-lavender);
+  font-family: "HankenGrotesk";
 }
 #root {
-  padding: 2rem;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  background: var(--Light-lavender);
+  min-height: 100vh;
 }
