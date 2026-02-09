@@ -1,14 +1,16 @@
 import Attribute from "./components/Attribute.jsx";
-import Score from "./components/score.jsx";
+import ScoreCard from "./components/ScoreCard.jsx";
+import SummaryCard from "./components/SummaryCard.jsx";
 import data from "./json/data.json";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <Score />
-      </div>
+      <main className="container">
+        <ScoreCard />
+        <SummaryCard />
+      </main>
       <Attribute />
     </>
   );
