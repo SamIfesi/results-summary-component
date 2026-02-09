@@ -26,7 +26,7 @@
 }
 @font-face {
   font-family: HankenGrotesk;
-  src: url(/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
   font-weight: 500 800;
 }
 * {
@@ -36,7 +36,18 @@
   -webkit-tap-highlight-color: transparent;
   font-family: "HankenGrotesk";
 }
-#root {
+body{
+
   background: var(--Light-lavender);
+}
+#root {
+  background: var(--White);
   min-height: 100vh;
+}
+.attribution {
+  font-size: .8rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

@@ -72,14 +72,19 @@
   padding: 1rem;
   border-radius: 0.5rem;
   background: hsla(166, 100%, 90%, 0.5);
-  border: 1px solid  var(--Green-teal);
+  border: 1px solid var(--Green-teal);
   font-weight: 600;
+}
+.test-type .test {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .test-type .average-score {
   font-weight: 800;
 }
 .average-score span {
-    color: var(--Light-lavender);
+  color: var(--Light-lavender);
 }
 .btn {
   background: var(--Dark-gray-blue);
@@ -90,4 +95,8 @@
   font-weight: 700;
   font-size: 0.95rem;
   cursor: pointer;
+  transition: 500ms background ease-in;
+}
+.btn:hover {
+  background: var(--gradient-background);
 }

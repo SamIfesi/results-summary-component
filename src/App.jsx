@@ -1,7 +1,6 @@
 import Attribute from "./components/Attribute.jsx";
 import ScoreCard from "./components/ScoreCard.jsx";
 import SummaryCard from "./components/SummaryCard.jsx";
-import data from "./json/data.json";
 import "./App.css";
 
 function App() {
