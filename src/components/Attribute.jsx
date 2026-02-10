@@ -1,4 +1,4 @@
-function Attribute() {
+export default function Attribute() {
   return (
     <div className="attribution">
       Challenge by{" "}
@@ -22,4 +22,4 @@ function Attribute() {
   );
 }
 
-export default Attribute;
+
