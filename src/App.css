@@ -53,6 +53,7 @@
 
 .summary-card {
   padding: 1rem 2rem 2rem;
+  width: 100%;
 }
 .summary-card h4 {
   font-size: 1.1rem;
@@ -99,4 +100,46 @@
 }
 .btn:hover {
   background: var(--gradient-background);
+}
+
+@media (min-width: 45rem) {
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container {
+    max-width: 43rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .score-card {
+    flex: 1;
+    border-radius: 1.5rem;
+    padding-block: 3rem;
+  }
+  .summary-card {
+    flex: 1;
+  }
+  .score-remark {
+    text-align: center;
+    width: 100%;
+    margin: 0.5rem auto 1rem;
+    padding-inline: 2rem;
+  }
+  .attribution {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+   .score-card .score-circle {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  .score-card h3{
+    margin: 1rem 0;
+  }
 }
