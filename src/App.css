@@ -72,9 +72,23 @@
   align-items: center;
   padding: 1rem;
   border-radius: 0.5rem;
-  background: hsla(166, 100%, 90%, 0.5);
-  border: 1px solid var(--Green-teal);
   font-weight: 600;
+}
+.test-type.reaction {
+  background: hsla(0, 100%, 67%, 0.08);
+  color: var(--Light-red);
+}
+.test-type.memory {
+  background: hsla(39, 100%, 56%, 0.08);
+  color: var(--Orangey-yellow);
+}
+.test-type.verbal {
+  background: hsla(166, 100%, 37%, 0.08);
+  color: var(--Green-teal);
+}
+.test-type.visual {
+  background: hsla(234, 85%, 45%, 0.08);
+  color: var(--Cobalt-blue);
 }
 .test-type .test {
   display: flex;
@@ -83,6 +97,7 @@
 }
 .test-type .average-score {
   font-weight: 800;
+  color: var(--Dark-gray-blue);
 }
 .average-score span {
   color: var(--Light-lavender);
